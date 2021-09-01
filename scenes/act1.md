@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: และนี่คือความวิตกของมนุษย์
 
-n: _YOU_ ARE THE ANXIETY
+n: _คุณคือความวิตก_ ARE THE ANXIETY
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
