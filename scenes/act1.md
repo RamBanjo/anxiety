@@ -506,7 +506,7 @@ b: หรือว่าแย่กว่านั้น... ขนมปัง�
 {{/if}}
 
 {{if _.whitebread}}
-b: พวกเราจะโดปยากับขนมปังเกินขนาดจนสัปเหร่อจะยัดศพอ้วนๆของเราลงเมรุไม่ได้!
+b: พวกเราจะเล่นยากับขนมปังเกินขนาดจนสัปเหร่อจะยัดศพอ้วนๆของเราลงเมรุไม่ได้!
 {{/if}}
 
 {{if !_.whitebread}}
@@ -735,7 +735,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: แมวย่อยนมไม่ได้โว้ย พวกเราเป็นคนเลวเพราะชอบการทรมานสัตว์!!!
+b: แมวย่อยนมไม่ได้โว้ย พวกเราชอบการทรมานสัตว์!! พวกเรามันถ่อย!!
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -807,11 +807,11 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 b: เขาคาดหวังว่าเราจะมาแล้วเรามาหักหลังเขาอย่างนี้มันใช่เหรอ อยากตายคนเดียวหรือไง?!
 
 {{if _.fifteencigs}}
-b: สิบห้ามวน
+b: สิบห้า! มวน!
 {{/if}}
 
 {{if _.whalepoop}}
-b: ขี้ปลาวาฬ
+b: ขี้ปลาวาฬ!
 {{/if}}
 
 ```
@@ -912,7 +912,7 @@ h: บอกเขาว่าไม่ไปดีแล้วใช่ไห�
 
 b: ทุกคนคาดหวังไว้กับเรา!
 
-b: ...คาดหวังว่าเราจะไม่ไปแล้วให้เขาสนุกกับปาร์ตี้ที่ไม่มีไอ้เห่ยน่ารังเกียจ{{if _.whitebread}}ที่กินขนมปังขาว{{/if}}แบบเร--
+b: ...คาดหวังว่าเราจะไม่ไปแล้วให้เขาสนุกกับปาร์ตี้ที่ไม่มีตัวกาลิกิณีน่ารังเกียจ{{if _.whitebread}}ที่ชอบกินขนมปังขาว{{/if}}แบบเร--
 
 
 ```
@@ -1036,7 +1036,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: อยากมีหลังงอเป็นตะขอหรือไง?! เลิกงอหลังดูจอได้แล้ว!
+b: อยากมีหลังงอเป็นตะขอหรือไง?! เลิกก้มหน้าดูจอได้แล้ว!
 
 ```
 bb({body:"meta"});
@@ -1129,60 +1129,60 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Whatever. New Tinder notification.
+h: ช่างเถอะ ทินเดอร์เข้าล่ะ
 
 `bb({eyes:"uncertain"})`
 
-b: What, that hookup app?
+b: หะ ไอ้แอพนัดเอากันอ่ะนะ
 
 `hong({eyes:"annoyed"})`
 
-h: It's not a hookup app, it's just a way to meet new peopl--
+h: ไม่ใช่แอพนัด^เย็ด^โว้ย มันคือวิธีหาคนใหม่ๆ--
 
 `bb({eyes:"narrow"})`
 
-b: It's a hookup app.
+b: แบบนั้นแหละที่เรียกว่าแอพนัดเอากัน
 
 ```
 hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, I got a match! They look cute!
+h: โห ได้คู่ละ! หน้าตาดีซะด้วยสิ!
 
 ```
 bb({eyes:"narrow_eyebrow"});
 hong({eyes:"sad", mouth:"anger"})
 ```
 
-h: Please don't ruin this for m--
+h: ขอร้องล่ะ อย่าทำพั--
 
 ```
 bb({body:"panic"});
 Game.OVERRIDE_TEXT_SPEED = 2.0;
 ```
 
-b: DANGER DANGER DANGER DANGER DANGER DANGER
+b: อันตราย! อันตราย! อันตราย! อันตราย! อันตราย! อันตราย!
 
 `bb({body:"fear", eyes:"fear", mouth:"normal"})`
 
-[We're being *used* by other people.](#act1f_used_by_others)
+[เรากำลังถูกคนอื่น *หลอกใช้*](#act1f_used_by_others)
 
-[We're just *using* other people.](#act1f_using_others)
+[เรากำลัง *หลอกใช้* คนอื่น](#act1f_using_others)
 
-[YOUR MATCH IS A SERIAL KILLER](#act1f_killer)
+[นายเพี่งจับคู่กับฆาตกรต่อเนี่อง!!!](#act1f_killer)
 
 # act1f_used_by_others
 
 `bb({body:"point_crotch", eyes:"normal", mouth:"normal"})`
 
-b: Random hookups may be able to fill the hole down there,
+b: นัดเจอคนอื่นมันอาจช่วยเติมเต็มความว่างเปล่าระหว่างขาได้
 
-b: but they can never fill the hole...
+b: แต่ว่ามันไม่อาจเติมเต็มความว่างเปล่า...
 
 `bb({body:"point_heart", eyes:"pretty", mouth:"small"})`
 
-b: in *here*.
+b: *ในนี้* ได้
 
 (...1000)
 
@@ -1191,7 +1191,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is WE'RE GOING TO DIE ALONE
+b: ประเด็นหลักคือพวกเราจะตายแบบไม่มีใครคบ!!!
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1208,7 +1208,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: You think other people's genitals are Pokémon for us to collect?
+b: คิดว่าอวัยวะคนอื่นเป็นโปเกม่อนให้เราสะสมหรือไง?
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1222,7 +1222,7 @@ Game.FORCE_TEXT_DURATION = 1000;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: ♫ (pokemon theme song)-
+b: ♫ (เพลงเปิดโปเกม่อน)-
 
 (...5600)
 
@@ -1231,7 +1231,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ I wanna be, the ^slut^ti-est-
+b: ♫ ฉันจะเป็นคน ที่^เงี่ยน^ที่สุด-
 
 (...500)
 
@@ -1240,7 +1240,7 @@ bb({eyes:"narrow", mouth:"small"});
 Game.FORCE_TEXT_DURATION = 2100;
 ```
 
-b: ♫ Like no one ever was-
+b: ♫ ที่โลกไม่เคยได้เห็น-
 
 (...1500)
 
@@ -1249,7 +1249,7 @@ bb({eyes:"pretty"});
 Game.FORCE_TEXT_DURATION = 2300;
 ```
 
-b: ♫ Thighs n' ^ass^, voluptuous breast-
+b: ♫ จับก้นดูนม แถมดูต้นขา-
 
 (...500)
 
@@ -1258,7 +1258,7 @@ bb({eyes:"fear", mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2000;
 ```
 
-b: ♫ with sweaty ^dick^ and balls!-
+b: ♫ และเที่ยวเลียปิกา^จู๋^-
 
 (...1000)
 
@@ -1267,7 +1267,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ PERVY-MON! GOTTA CA-
+b: ♫ โปเก^โม็ค^! เราจะจั--
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1277,7 +1277,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: The point is we're a manipulative creep.
+b: ประเด็นคือพวกเราเป็นไอ้หื่นที่ชอบเอาเปรียบคนอื่น
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1295,19 +1295,19 @@ attack("18p", "bad");
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.whitebread}}
-b: They'll trap you in a well and force-feed you white bread to fatten you up so they can wear your skin like a suit!
+b: เขาจะจับนายขังในบ่อน้ำแล้วบังคับให้นายกินขนมปังขาวจนอ้วน จะได้ฆ่านายไปทำเสื้อหนังคนไงล่ะ!
 {{/if}}
 
 {{if _.parasite}}
-b: They'll bludgeon you with a pomodoro timer and say "YOU SHOULDA BEEN MORE PRODUCTIVE YOU PARASITE"
+b: เขาจะเอานาฬิกาจับเวลาตีหัวเราแล้วบอกว่า "ไปตายซะไอ้ปรสิตสังคมไร้ประโยชน์!"
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: They'll tear your flesh to gory confetti, turn your entrails into streamers, and mix your blood into a punch bowl!
+b: เขาจะฉีกเนื้อนายเป็นชิ้นๆ เอาไส้นายไปทำริบบิ้น แล้วเอาเลือดนายไปผสมพั้นช์
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: How's THAT for a party invite?!
+b: ปาร์ตี้แบบนี้เป็นยังไงล่ะ!
 {{/if}}
 
 ```
@@ -1334,44 +1334,44 @@ h: ...
 
 (...500)
 
-h: i'm so sick of this game.
+h: ^กู^เบี่อเกมนี้^ฉิบหาย^ว่ะ
 
 (...700)
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 h:
-{{if _.fifteencigs}}"loneliness will kill us"... {{/if}}
-{{if _.parasite}}"we're a society-parasite"... {{/if}}
-{{if _.whitebread}}"don't eat that, it'll kill us"... {{/if}}
-{{if _.subtweet}}"they're talking behind our back"... {{/if}}
-{{if _.badnews}}"the world is burning"... {{/if}}
-{{if _.hookuphole}}"we'll die alone"... {{/if}}
-{{if _.serialkiller}}"they're a serial killer"... {{/if}}
-{{if _.catmilk}}"cats can't digest milk"... {{/if}}
-{{if _.pokemon}}a ^crappy^ parody song... {{/if}}
+{{if _.fifteencigs}}"ความเหงาทำเราตายได้"... {{/if}}
+{{if _.parasite}}"เราเป็นปรสิตสังคม"... {{/if}}
+{{if _.whitebread}}"อย่ากินอันนั้น เดี๋ยวเราตาย"... {{/if}}
+{{if _.subtweet}}"ทุกคนกำลังนินทาเราลับหลัง"... {{/if}}
+{{if _.badnews}}"ทั้งโลกลุกเป็นไฟ"... {{/if}}
+{{if _.hookuphole}}"เราจะตายคนเดียว"... {{/if}}
+{{if _.serialkiller}}"เขาเป็นฆาตกรต่อเนี่อง"... {{/if}}
+{{if _.catmilk}}"แมวย่อยนมไม่ได้"... {{/if}}
+{{if _.pokemon}}เพลงล้อเลียน^กาก^ๆ... {{/if}}
 
-h: i just want to live my life.
+h: ก็แค่อยากใช้ชีวิตแบบปกติอ่ะ
 
-h: i just want to be free from all this... pain.
+h: ก็แค่อยากปลดแอกจาก...การรู้สึกแบบนี้
 
 `bb({eyes:"look_sad"});`
 
-b: Hey... human...
+b: นี่... มนุษย์...
 
 `Game.OVERRIDE_TEXT_SPEED = 0.5;`
 
-b: It'll be okay.
+b: ทุกอย่างจะโอเค
 
 (...600)
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: As your loyal guard-wolf, I'll always keep an eye out for danger, and do my best to keep you safe.
+b: ในฐานะหมาป่าเฝ้าบ้าน ฉันจะคอยระวังอันตรายให้ แล้วก็จะทำทุกอย่างเพี่อให้นายปลอดภัย
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
-b: I promise.
+b: ฉันสัญญา
 
 (...600)
 
@@ -1380,29 +1380,29 @@ bb({body:"normal", eyes:"normal", mouth:"normal"});
 hong({body:"phone1", eyes:"neutral", mouth:"neutral"});
 ```
 
-h: Last app. Instagram. What you got?
+h: แอพสุดท้ายละ อินสตา มีอะไรบ้างล่ะ?
 
 `hong({eyes:"sad"});`
 
-h: It's... more party pictures.
+h: มี... รูปปาร์ตี้อีกหลายรูป
 
 `hong({mouth:"sad"});`
 
-h: Everyone looks so happy. Free from worry. Free from anxiety.
+h: ทุกคนดูมีความสุขดีจัง ไม่กังวล ไม่วิตก
 
 `hong({mouth:"anger"});`
 
-h: God, why can't I be like them? Why can't I just be *normal?*
+h: ทำไมถึงเป็นอย่างเขาไม่ได้ ทำไมเราถึงไม่ *ปกติ?*
 
 `bb({eyes:"normal_right"});`
 
-b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
+b: เอ่อ พูดถึงปาร์ตี้แล้ว เรี่องที่เขาเชิญเราน่ะ ตกลงว่า:
 
 `bb({eyes:"normal"});`
 
-[We should go.](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
+[เราควรไป](#act1g_go) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[We should not go.](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
+[เราไม่ควรไป](#act1g_dont) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1g_go
 
@@ -1418,39 +1418,39 @@ b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
 
 # act1h
 
-b: We sh--
+b: เราควร--
 
 ```
 bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^FUCK^.*
+h: ช่าง
 
 `hong({body:"2_you"});`
 
-h: YOU.
+h: ^พ่อง^
 
 (...500)
 
-b: w
+b: ห
 
 (...1500)
 
 `bb({eyes:"wat_2"});`
 
-b: wha?
+b: หะ
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: I'm going to say YES to that party,
+h: ชั้นจะบอกเขาว่าไป
 
 {{if _.act1g=="go"}}
-h: NOT because you want me to, but because *I* want to.
+h: ไม่ใช่เพราะแกอยากให้ไป *ชั้น* อยากไปเอง
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisely BECAUSE you don't want me to.
+h: เพราะว่าแกไม่อยากให้ไปไงล่ะ
 {{/if}}
 
 ```
@@ -1458,14 +1458,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: You're NOT in control of me.
+h: แกไม่มีสิทธ์มาบังคับชั้น
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Now excuse me while I eat this delicious sandwich in ^goddamn^ peace.
+h: ถ้าไม่มีอะไรแล้ว ก็ขอตัวนั่ง^แดก^แซนด์วิชอร่อยๆนี้เงียบๆคนเดียวแล้วกัน
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1503,11 +1503,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH WE'RE GONNA DIE](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[ว้าาาาาาก พวกเราจะตายกันหมด!!!](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH EVERYONE HATES US](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[ว้าาาาาาก ทุกคนเกลียดเรา!!!](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH WE'RE HORRIBLE PEOPLE](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[ว้าาาาาาก พวกเรามันเลว!!!](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1516,7 +1516,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE GONNA DIE AAAAAAHHHHHHH
+b: ว้าาาาาาก พวกเราจะตายกันหมด ว้าาาาาาากกกกกกก!!!
 
 ```
 hong({body:"3_defeated1"});
@@ -1534,7 +1534,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH EVERYONE HATES US AAAAAAHHHHHHH
+b: ว้าาาาาาก ทุกคนเกลียดเรา ว้าาาาาาากกกกกกก!!!
 
 ```
 hong({body:"3_defeated1"});
@@ -1552,7 +1552,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE HORRIBLE PEOPLE AAAAAAHHHHHHH
+b: ว้าาาาาาก พวกเรามันเลว ว้าาาาาาากกกกกกก!!!
 
 ```
 hong({body:"3_defeated1"});
@@ -1570,39 +1570,39 @@ bb({mouth:"smile_lock", eyes:"smile", body:"normal"});
 music('battle', {volume:0.5});
 ```
 
-n: CONGRATULATIONS
+n: ยินดีด้วย
 
 (...500)
 
-n: YOU'VE SUCCESSFULLY PROTECTED YOUR HUMAN'S PHYSICAL + SOCIAL + MORAL NEEDS
+n: คุณปกป้องความต้องการทาง ร่างกาย + สังคม + ศิลธรรม ของมนุษย์คุณได้สำเร็จ
 
-n: WHY, LOOK HOW GRATEFUL THEY ARE!
+n: ดูสิ เขาซาบซึ้งสุดๆ ไปเลย!
 
 (...500)
 
-n: NOW THAT THEIR ENERGY IS ZERO, YOU CAN DIRECTLY CONTROL THEIR ACTIONS
+n: ตอนนี้พลังงานของเขาเหลือศูนย์แล้ว คุณจึงสามารถควบคุมการกระทำของเขาโดยตรงได้
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: PICK YOUR ENDING MOVE
+n: เลือกท่าไม้ตาย
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *FINISH THEM*
+n: *จัดการเขาซะ*
 
-[{FIGHT: Punish your stressful phone!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{สู้: ลงทัณฑ์มือถือนั่นซะ! โทษฐานทำเราเครียด!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Curl up in a ball and cry!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{หนี: ม้วนตัวเป็นลูกบอลแล้วร้องไห้!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Your phone was giving you a panic attack!
+b: มือถือนายมันทำให้นายแพนิกแล้ว!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg and Co are hijacking your mental health for venture capitalist money!
+b: มาร์ค สากกระเบือ และผองเพี่อน กำลังปล้นจี้สุขภาพจิตของนายเพี่อเงินตราจากระบอบทุนนิยม!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1610,7 +1610,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punish your phone! Destroy it! Kill it!
+b: ลงโทษมือถือนั่นซะ! ทำลายมันทิ้ง! ฆ่ามัน!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1619,7 +1619,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL I--
+b: ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่ามัน! ฆ่าม--
 
 (#act1j)
 
@@ -1627,7 +1627,7 @@ b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL 
 
 `bb({eyes:"fear", mouth:"normal"})`
 
-b: The whole world is filled with danger!
+b: โลกนี้เต็มไปด้วยอันตราย!
 
 ```
 bb({body:"fear"});
@@ -1635,7 +1635,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do like the armadillo! Curl up into a ball for self-defense!
+b: ทำแบบตัวอาร์มาดิลโลสิ! ม้วนตัวเองเพี่อป้องกันตัว!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1644,7 +1644,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CR-- 
+b: ม้วนตัวแล้วร้องไห้! ม้วนตัวแล้วร้องไห้! ม้วนตัวแล้วร้องไห้! ม้วนตัวแล้วร้องไห้! ม้วนตัวแล้วร้องไห้! ม้วนตัวแล้วร้องไ-- 
 
 (#act1j)
 
