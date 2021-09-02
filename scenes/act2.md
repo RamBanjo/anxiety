@@ -23,14 +23,14 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: ว่าแต่แกได้ *ดู* "ข่าว" เกี่ยวกับเรี่องแย่ๆ ที่กำลังเกิดขึ้นตอนนี้เปล่า
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: ห-หวัดดี...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +38,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
+a: ชั้นล่ะเกลียดข่าวแบบนี้จริงๆ มีแต่ทำคลิกเบทเรียกยอดไลค์
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: ป... ปาร์ตี้สนุกดี...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: ก็จริงแหละ แต่ว่าเว็บข่าวก็ทำเพราะมีคนอ่านนี่ไง ปัญหา *จริงๆ* คือคนที่คลิกอ่านคลิกเบทพวกนี่สิ
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: ใครจะรีทวิตเรี่องแย่ๆแบบนี้ ให้เพี่อนตัวเองรู้สึกแย่บ้างล่ะ
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: เฮ้อ นั่นสินะ
 
 (#act2-preamble-end)
 
@@ -78,14 +78,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: ว่าแต่แกได้ *ดู* "ข่าว" ที่กำลังเป็นดราม่าตอนนี้ป่าว
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: ห-หวัดดี...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,14 +93,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: อึม ดูไปก็ปลอมชัดๆ ไอ้หน้าไหนมันจะเชี่อแล้วรีลงทวิตวะ
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: ป... ปาร์ตี้สนุกดี...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: ช่าย แบบ ค้นอากู๋แล้วเช็คข่าวก่อนไม่ได้หรือไง
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: เฮ้อ นั่นสินะ
 
 (#act2-preamble-end)
 
@@ -127,14 +127,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: อย่างที่บอกไปตะกี้นี้ อุตสาหกรรมมีมกำลังทรมานแมว
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: ห-หวัดดี...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +142,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: จงสาธยายข้อสันนิฐานนี้
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: ป... ปาร์ตี้สนุกดี...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +157,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
+s: ก็ วันก่อนชั้นเห็นใครก็ไม่รู้รีทวิตรูปแมวกินนม
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
+s: แมว^แดก^นมไม่ได้! ต้องเป็นคนแบบไหนถึงจะรี *การทรมานสัตว์* แบบนั้น?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: เฮ้อ นั่นสินะ
 
 (#act2-preamble-end)
 
@@ -182,14 +182,14 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: อึ้ม แล้วเขาก็ไม่ตอบกลับ!
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: ห-หวัดดี...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +197,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: นี่ขนาดจับคู่บนทินเดอร์แล้วเนี่ยนะ
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: ป... ปาร์ตี้สนุกดี...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
+s: ก็ไม่รู้ล่ะ เขาคิดว่าเราเป็น *ฆาตกรต่อเนี่อง* หรือยังไง จะคิดมากไปไหนเนี่ย
 
 ```
 publish("act2",["party_hunter",1]);
@@ -237,7 +237,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: เฮ้อ นั่นสินะ
 
 (#act2-preamble-end)
 
@@ -249,9 +249,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: ก็ไม่รู้ล่ะ เขาคงคิดว่าการนัด^เย็ด^กันมันไม่ช่วยเติมเต็มความว่างเปล่าข้างในได้มั้ง?
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: ขอโทษนะ เลิกดัดจริตซะทีเถอะ! เปิดใจ แล้วก็อ้าขา!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: เฮ้อ นั่นสินะ
 
 (#act2-preamble-end)
 
@@ -271,7 +271,8 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: ก็ไม่รู้ล่ะ เขาก็ไม่ได้หน้าตาดีเท่าไหร่ แต่ถ้าจับได้คงจะสวยน่าดู
+Yeah I dunno! They weren't that hot, but they would have been a nice catch!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -300,13 +301,13 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: ROUND TWO: *FIGHT!*
+n: รอบสอง: *สู้!*
 
-[Oh no they all hate us!](#act2a_social)
+[ไม่นะ ทุกคนเกลียดเรา!](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[นายกำลัง *แอบส่อง*  หัวแดงอยู่หรือเปล่า?](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[นี่ เรามาคุยเถอะ ว่าความหมายของชีวิตคืออะไร](#act2a_meaning)
 
 # act2a_social
 
