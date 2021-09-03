@@ -312,15 +312,15 @@ n: รอบสอง: *สู้!*
 
 `bb({eyes:"sad"})`
 
-b: We're bringing down the mood of this party by being such a sad lump!
+b: เรากำลังทำให้ปาร์ตี้นี้อารมณ์บูดเพราะเราทำตัวเป็นก้อนเศร้าๆก้อนนึง!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: We're killing the good vibes! We're committing first-degree vibe-murder!
+b: เรากำลังทำลายความรู้สึกดีๆของทุกคน! เรากำลังทำการวิสามัญฆาตกรรมความรู้สึกของทุกคน!
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Human, we have to leave *now* before--
+b: มนุษย์ เราต้องออกจาที่นี่ *เดี๋ยวนี้* ก่อนที่--
 
 ```
 _.a2_first_danger = 'social';
@@ -333,15 +333,15 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: They're more attractive than us, which means if we even *look* at them, then--
+b: เขาหน้าตาดีกว่าเรา หมายความว่าถ้าเราแค่ *มอง* เขา--
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: WE'RE CREEPS
+b: พวกเราก็เป็นไอ้บ้ากาม!!
 
 `bb({body:"normal"})`
 
-b: We're creepy, evil, bad bad bad terrible terrible perv--
+b: พวกเรามันหื่น ชั่ว เลว เลว เลว ถ่อยสถุล ลาม--
 
 ```
 _.a2_first_danger = 'perv';
@@ -354,31 +354,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? 
+b: สุดท้ายแล้วนี่ จะมีอะไรบ้างที่เราทำแล้วไม่ไร้ความหมาย?
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
+b: สร้างสรรค์สิ่งใหม่ๆให้มนุษย์ชาติ? ผลงานทั้งหลายสุดท้ายก็ต้องสลายแบบ Ozymandias ความรักเหรอ? ความตายก็ทำให้พรากจากกัน
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: แล้วดูสิ ความตายมีเยอะแยะ! *พวกเรา* ต้องตายสักวันนึง *ทุกคนที่เรารัก* ก็ต้องตายสักวันนึง
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: กฏข้อที่สองของอุณหพลศาสตร์ยังบอกไว้เลยว่าแม้แต่ *เอกภพ* ก็มีวันตาย!
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: โอ้ อะไรนะ "ความตายทำให้เรารู้ค่าของชีวิต" งั้นเหรอ? พูดแบบนั้นก็เหมือนกับพูดว่าการเป็นทาสเป็นเรี่องที่ดีเพราะมันทำให้เรารู้คุณค่าของการเป็นอิสระน่ะสิ!
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: อะไรนะ "นายต้องหาความหมายของมันเอง"? อันนั้นมันมีแต่พวกคลั่งลิทธิกับพวกสร้างทฤษฎีสมคบคิดเขาพูดกัน!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: ชีวิตไม่มีความหมาย ความตายไม่มีความหมาย *ความหมาย* ก็ยังไม่มีความหมายเลย! แล้วทีนี้คนเดินดินคนธรรมดาแบบเราต้องทำยั--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -395,7 +395,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: เอ่อ... มนุษย์ นายได้ยินฉันมั้ย?
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -407,19 +407,19 @@ b: *GASP*
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: ฉันจะต้องเตือนนายเกี่ยวกับ...
 
-[*More* of the same danger!](#act2b_louder)
+[ภัยเรี่องเดิมที่มี *มากกว่านี้* !](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[ภัยทางสังคม *เรี่องอื่น*!](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[ภัยทางศีลธรรม *เรี่องอื่น*!](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[นายกำลังไม่สนใจภัยอันตราย! แบบนั้นมันอันตรายนะ!](#act2b_ignore)
 
 # act2b_louder
 
@@ -441,13 +441,13 @@ b: I MUST WARN YOU ABOUT...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
+b: อารมณ์มันติดต่อกันได้โว้ย! ถ้านายไม่รีบออกจากที่นี่นายจะทำให้ทุกคนป่วยจิตหมด!
 
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: นายจะทำให้เกิดคลัสเตอร์โรคก้อนเศร้าๆ!
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
+b: พวกเราต้องออกไปจากที่นี่แล้วไปกักตัวตลอดกาลในห้องเล็กๆ นั่งดู Netflix และสั่งอาหารเข้ามากิน!
 
 ```
 _.a2_second_danger = 'netflix';
@@ -461,7 +461,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: อย่าลามก! มันผิดกฏหมายนะ!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -486,11 +486,11 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+b: กฏหมายคนลามก มาตราที่ 74.5: (1) บุคคลใดที่จ้องมอง (ก) กล้ามบึ้กๆคู่นั้น (ข) ก้นเด้งๆนั้น (2) จะต้องถูกประณามว่าเป็น
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: "ไอ้ลามกจกเปรตน่ารังเกียจ"!
 
 ```
 _.a2_second_danger = 'law';
@@ -504,23 +504,23 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: เอาเข้าจริงๆ แล้ว ถึงหาเป้าหมายในชีวิตที่ดีได้ นายก็ยังทำมันพัง *ได้อยู่ดี* !
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
+b: อัลเฟร็ด โนเบล ต้องการให้โลกมีสันติสุขและวัฒนธรรมต่างๆ เข้าใจซึ่งกันและกัน เขาเลยอยากให้การเดินทางไปไหนมาไหนง่ายขึ้น
 
 `bb({eyes:"normal_r"})`
 
-b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
+b: เขาก็ต้องคิดวิธีการทำอุโมงค์รถไฟแบบถูกๆ เลยประดิษฐ์สารที่เรียกว่า "ไดนาไมต์" ขึ้นมา...
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: which was used in World War I to KILL MILLIONS OF PEOPLE
+b: แล้วมันก็ถูกใช้ในสงครามโลกครั้งที่หนึ่งเพี่อคร่าชีวิตคนเป็นล้านๆ!
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
+b: นั่นแหละคือผีเสื้อกระพือปีก!!! นายกำลังฆ่าคนแบบไม่จงใจกี่คน??
 
 ```
 _.a2_second_danger = 'butterfly';
@@ -536,19 +536,19 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
+b: รู้มั้ย อะไรแย่กว่าไม่มีใครรัก ก็ *ทุกคน* รักไงล่ะ
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: That is, becoming one of *these* pleasure-chasing party animals.
+b: ก็คือ นายจะกลายเป็นพวกขี้เมาที่ชอบเฮฮาปาร์ตี้แบบ *พวกนี้*
 
 `bb({body:"normal", mouth:"small"})`
 
-b: A shallow life with shallow friends who only know the shallow you!
+b: ชีวิตตื้นๆ ที่มีเพี่อนแบบผิวเผิน ที่รู้จักนายแบบไม่จริง!
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
+b: มนุษย์ เราต้องรีบหนีจากซอมบี้ขี้เมาพวกนี้ ก่อนที่พวกนั้นจะทำให้เราเป็นซอมบี้ไปด้วย!
 
 ```
 _.a2_second_danger = 'zombies';
@@ -564,19 +564,19 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: People are dying in famines and genocides *right now* and we're just partying!
+b: คนมากมายกำลังอดตาย กำลังถูกฆ่าล้างเผ่าพันธุ์ *ตอนนี้* แล้วพวกเรายังมีหน้ามาปาร์ตี้กันอีก! 
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
+b: มีคนเคยกล่าวไว้ว่า "สิ่งเดียวที่ทำให้คนชั่วชนะได้ คือการที่คนดีไม่ทำอะไร"
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: WE'RE DOING NOTHING.
+b: พวกเรากำลังไม่ทำอะไร!!!
 
 `bb({mouth:"small"})`
 
-b: BY PARTYING, WE'RE HELPING *HITLER*.
+b: การที่เรามาปาร์ตี้ เป็นการช่วย *ฮิตเลอร์* !!!
 
 ```
 _.a2_second_danger = 'hitler';
@@ -592,15 +592,16 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
+b: นายคิดว่านายปลอดภัยแค่เพราะว่านายเอาถ่านออกจากเครี่องจับคาร์บอนมอนออกไซด์แล้วเหรอ?
 
 `bb({eyes:"suspect_r"})`
 
-b: You won't even smell the poison! You'll just get sleepy and then you'll--
+b: นายจะไม่ได้กลิ่นลมพิษเลย! นายจะเรี่มรู้สึกง่วงแล้วนายก็จะ
+You won't even smell the poison! You'll just get sleepy and then you'll--
 
 `bb({body:"scream_c_1"})`
 
-b: DIEEEEEEEEEEEEEEEEEE
+b: ตายยยยยยยยยยยยยยยยยย
 
 ```
 _.a2_second_danger = 'ignore';
@@ -621,29 +622,29 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh thank goodness human, I think you can hear me again!
+b: โอ้ แล้วไปนะมนุษย์ ฉันคิดว่านายได้ยินฉันแล้ว!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: ฉันจะขอเตือนนายเรี่อง...
 
 {{if _.a2_first_choice=="louder"}}
-[*Even more* of the same danger!](#act2c_louder)
+[ภัยเรี่องเดิมที่ยิ่งมี *มากกว่านี้* !](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*More* of the same danger!](#act2c_louder)
+[ภัยเรี่องเดิมที่มี *มากกว่านี้* !](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2c_different_social)
+[ภัยทางสังคม *เรี่องอื่น*!](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2c_different_moral)
+[ภัยทางศีลธรรม *เรี่องอื่น*!](#act2c_different_moral)
 {{/if}}
 
-[Did you check that punch before drinking?](#act2c_punch)
+[นายได้เช็คพันช์นั่นก่อนดื่มป่าว](#act2c_punch)
 
 #act2c_louder
 
