@@ -1063,12 +1063,10 @@ b: ...
 `bb({body:"chest"})`
 
 b: ฉันเป็น *ส่วนหนึ่ง* ของนายนะ การที่นายพูดแบบนั้นมัน *ทำร้ายตัวเอง* นะ
-I'm *part* of you, you know. When you say that, you're hurting *yourself*.
 
 `bb({body:"scream_a_1"})`
 
-b: ทำไมนายถึงทำตัวเองแบบนั้นล่ะ? เลิกทำตัวเองซะที!!
-Why are you hitting yourself, human? STOP HITTING YOURSELF.
+b: ทำไมนายถึงทำตัวเองแบบนั้นล่ะ? เลิกทำร้ายตัวเองซะที!!
 
 ```
 music(null);
@@ -1267,7 +1265,7 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: วันก่อนนะ ได้ยินมาว่าที่มอมีคนปรี้ดแตกแล้วทุ่มมือถือตัวเองทิ้ง
+r: วันก่อนนะ ได้ยินมาว่าที่มหาลัยมีคนปรี้ดแตกแล้วทุ่มมือถือตัวเองทิ้ง
 {{/if}}
 
 {{if _.act1_ending=="flight"}}

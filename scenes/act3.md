@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: เอ้าชน!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -23,41 +23,41 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *อ้า* สดชื่น
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: แกรู้อะไรมั้ย ไอ้น้อง
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: โดยเฉพาะอมิกดาลาซ้ายกับขวาในสมอง สดชื่นสุดๆ
 
 ```
 publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: เห็นแกแล้วนึกถึงตัวเองตอนสมัยก่อน ตอนที่ชั้นถูกสัตว์ในหัวตัวนั้นทรมาน
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: ชั้นล่ะปลื้มใจจริงๆที่สามารถช่วยคนอื่นได้ ช่วยแกฆ่าสัตว์ของแกแบบที่ชั้นฆ่ามาแล้ว
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: นี่แก ถามอะไรหน่อยสิ: truth or da--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -73,14 +73,14 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: ฮ่าฮ่า! ต้องอย่างนี้สิ
 
 ```
 publish("act3",["roofhunter",21]);
 publish("act3",["roofhong",4]);
 ```
 
-r: Ok. You see that baby-blue swimming pool down there?
+r: โอเค แกเห็นสระว่ายน้ำสีฟ้าๆข้างล่างมั้ย?
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +88,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: เออ ลงไปหกชั้นอ่ะนะ?
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: กระโดดลงไปซะ
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,39 +108,39 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: เดี๋ยว อะไรนะ?
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: สัตว์ตัวนั้นมันเรี่มครวญครางแล้วใช่มั้ยล่ะ?
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *โอ้ ม่าาาย มันอันตราย อย่าทำาาาาา*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: แต่นั่นแหละพวกเราถึงต้องซ่าท้าความตายกัน! ปาร์ตี้มันส์ๆ! เราเกิดมามีชีวิตแค่ครั้งเดียว! ดูดยาจากก้นชาวบ้าน! #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: แสดงให้สัตว์ตัวนั้นดูซะว่าเราไม่สน^สี่^สน^แปด^ว่ามันจะโวยวายอะไร! กระโดดลงไปซะ
 
 ```
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, but sometimes, um... fear has a point...
+h2: เอ่อ แต่ว่า เอ่อ... ความกลัวมีเหตุผล...
 
 ```
 publish("act3",["roofhunter",5]);
@@ -156,43 +156,43 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: I'm sorry, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: ประทานโทษ แกหลงเชื่อโปรปากันด้าพวกไลฟ์โคช์ที่ชอบออกมาพูดว่าความกลัวเป็นสิ่งที่ *ดี* เหรอ?
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: ไอ้พวก ^รูตูด^ ที่ครองอำนาจทำให้ *พวกเรา* เป็นโรควิตกกับโรคซึมเศร้า
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: แล้วพวก^แม่ง^ก็ทำ TED Talk เพี่อมาบอกให้เรา "ยอมรับ" การถูกกระทำ แล้ว "ต้อนรับ" มารอำมหิตในหัวเรา
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: ไอ้น้อง ชั้นรู้ว่า *แก* รู้ว่าสัตว์ตัวนั้นมัน *ทำร้าย* คนอย่างพวกเรา มัน *ทรมาน* คนอย่างพวกเรา
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: It's not our friend. It's a rabid beast, which either needs to be *tranquilized*,
+r: มันไม่ใช่เพี่อนเรา มันเป็นสัตว์ร้ายจอมอาลาวาด ที่แกจะต้อง *วางยาสลบมัน*
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: ไม่งั้นก็ *ฝังกระสุนในกะโหลกมันซะ*
 
 ```
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: ไม่งั้น แกก็แค่ปล่อยให้มันชนะ
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +200,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: ไม่ แกพูดผิดแล้ว
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: ชั้นจะไม่ปล่อยให้มันชนะ
 
 ```
 publish("act3",["roofhunter",25]);
@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: ^เย็ดเข้^! ชั้นเชี่อในตัวแกไอ้น้อง! เอาเลย! <3
 
 (#act3a)
 
@@ -240,38 +240,38 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: ไม่ ไม่ ไม่ ไม่ ไม่ ไม่
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: บทนี้มีตอนจบสองแบบ แบบนึงเป็นตอนจบที่ *แย่ สุด สุด*
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: อย่า อย่า อย่า อย่า อย่า อย่า อย่า อย่า อย่า อย่า อย่า อย่า อย่า อย่า
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: เลือกให้ดี ปกป้องมนุษย์ของคุณ
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
-b: AAAAAAAAAAAAAAAAAA
+b: อ้าาาาาาาาาาาาาาาก
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: ขอให้โชคดี
 
 ```
 Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[มนุษย์ แบบนี้นายมีสิทธ์ตายได้นะ!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is stupid and self-destructive!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
+[นี่มันทั้งงี่เง่าแล้วยังทำร้ายตัวเองด้วย!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[พวกบ้าพวกนี้ไม่ใช่เพี่อนนายนะ!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: H--
+b: ม--
 
 (#act3a_after)
 
@@ -279,7 +279,7 @@ b: H--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: พ--
 
 (#act3a_after)
 
@@ -287,7 +287,7 @@ b: T--
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: T--
+b: น--
 
 (#act3a_after)
 
@@ -307,9 +307,9 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You know, I might've believed you... if you hadn't tried that a zillion times before.
+h: รู้มั้ย ชั้นอาจเชี่อแก... ถ้าแกไม่ได้ทำแบบนี้มาแล้วเป็นล้านๆ ครั้ง
 
-h: You're the wolf who cried wolf.
+h: แกมันก็แค่หมาป่าเลี้ยงแกะ
 
 ```
 bb({ eyes:"sad" });
@@ -354,43 +354,43 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You tried that too.
+h: แบบนั้นแกก็เคยลองแล้ว
 
-b: human, please...
+b: มนุษย์ ได้โปรดเถอะ...
 
 `hong({ eyes:"look_right" });`
 
-h: Oh I'm *sorry* Big Pharma doesn't approve of my self-medication.
+h: โอ้ *โทษที* นะที่กรมสาสุขไม่อนุมัติให้ชั้นรักษาตัวเอง
 
-h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.
+h: ฟังนะไอ้^ส้นตีน^ พวกเรา *ทุกคน* ก็ต่างมีวิธีที่ทำให้แกเงียบปากได้
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: Some people throw themselves into work.
+h: บางคนโยนตัวเองใส่งาน
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: Some people throw themselves into sex, drugs, and refreshing their Facebook feed.
+h: บางคนโยนตัวเองใส่เซ็กซ์ ยา หรือการไถเฟสบุ๊ค
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: Some people throw themselves into other people. 
+h: บางคนโยนตัวเองหาคนอื่น 
 
 `hong({ eyes:"angry" });`
 
-h: I'm going to throw myself into that swimming pool.
+h: และชั้นก็จะโยนตัวเองลงสระว่ายน้ำนั่น
 
-[You're drunk and it's SIX FLOORS DOWN](#act3_bad_1_harm)
+[นายเมาอยู่ แล้วนั่นมันหกชั้นเชียวนะ!!](#act3_bad_1_harm)
 
-[Dang it, this is the thanks I get?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[ปัดโธ่ นายตอบแทนฉันแบบนี้เหรอ?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
-[Okay, I admit it. I messed up.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[โอเค ฉันยอมรับ ฉันทำพลาดไปแล้ว](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 # act3_bad_1_harm
 
-b: Even if you land in the water, the surface tension will crack your ribs and give you a concussion *at the least!*
+b: ถึงนายจะลงน้ำได้ *อย่างน้อย* แรงกระแทกผิวน้ำนั่นก็จะหักซี่โครงนายแล้วกระเทือนสมองนายด้วย!
 
-h: Eh.
+h: เออ
 
 ```
 hong({body:"drink"});
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: I saw a Russian guy do this on YouTube once.
+h: ชั้นเคนเห็นคนรัสเซียทำแบบนี้บนยูทูป
 
 (#act3_bad_2)
 
@@ -414,13 +414,13 @@ h: I saw a Russian guy do this on YouTube once.
 
 `hong({ eyes:"look_right" });`
 
-h: I- Excuse me, the *thanks?*
+h: ช- โทษทีนะ *ตอบแทน?*
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: เพราะแบบนี้ไงฉันถึงต้อง *มีตัวตน*! เพราะมนุษย์ปกป้องตัวเองไม่ได้!
 
-b: I've been trying to protect your stupid butt all my life and now you're just going t--
+b: ฉันพยายามปกป้องนายมาทั้งชีวิตแล้วตอนนี้นายจะ--
 
 ```
 hong({body:"drink"});
@@ -442,41 +442,41 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `hong({ body:"laugh_1" })``
 
-h: heh.
+h: หึ
 
 `hong({ body:"laugh_2" })``
 
-h: hahahaha
+h: ฮ่าฮ่าฮ่าฮ่า
 
 `hong({ body:"laugh_3" })``
 
-h: HAHAHAHAHAHA
+h: ฮ่าฮ่าฮ่าฮ่าฮ่าฮ่าฮ่าฮ่า!!
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: โอโห้ นี่มันเป็นการพูดน้อยกว่าความจริงเป็นพันเท่าล้านเท่าเลยมั้งเนี่ยไอ้^เย็ดครก^!
 
 `hong({ body:"yell_2" });`
 
-h: Yeah, you rotting pile of blood-coated ^shit^! You messed the ^fuck^ up!
+h: เออใช่ ไอ้^สวะ^สีเลือด! แกทำพลาด^เหี้ยๆ^!
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
-h: Any other remarks, Captain Obvious?
+h: มีอะไรจะพูดอีกมั้ย กัปตันออบเวียส?
 
-[But revenge on me isn't the answer!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[แต่การแก้แค้นไม่ใช่คำตอบนะ!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[But this time I'm *actually* right!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[แต่คราวนี้ฉันถูก *จริงๆ* นะ!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[I've hurt you.](#act3_good_2a)
+[ฉันทำร้ายนาย](#act3_good_2a)
 
 
 # act3_good_1_fail_revenge
 
-b: You need to have a healthier relationship with your emotions, rather than drown them wi--
+b: นายจะต้องมีความสัมพันธ์ที่ดีกับอารมณ์ แทนที่จะอุดหูแล้ว--
 
 ```
 hong({body:"drink"});
@@ -498,7 +498,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 # act3_good_1_fail_harm
 
-b: So please, put the bottle down and let's--
+b: ได้โปรดเถอะ วางขวดนั้นลงแล้ว--
 
 ```
 hong({body:"drink"});
@@ -523,24 +523,24 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `bb({ eyes:"sad" });`
 
-b: please... don't...
+b: ขอร้องล่ะ... อย่าเลย...
 
-h: Your energy bar's looking awfully low there, wolf.
+h: หลอดพลังของแกเหลือขีดเดียวแล้วนนี่หว่าไอ้หมาป่า
 
-h: If I were you, I'd choose your next words very carefully.
+h: ถ้าชั้นเป็นนาย ชั้นจะคิดดีๆว่าจะพูดอะไรต่อจากนี้
 
 `bb({ eyes:"normal" });`
 
-[Fine. I'm done protecting you.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
+[ก็ได้ พอกันทีกับการปกป้องนาย](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
 
-[I was right all along.](#act3_bad_2_right)
+[ฉันพูดถูกมาตลอด](#act3_bad_2_right)
 
-[I'm sorry.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[ฉันขอโทษ](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 
 # act3_bad_2_jump
 
-b: So, go ahead and jump. See what I care.
+b: เอาสิ โดดเลย ฉันไม่แคร์แล้ว
 
 `hong({ eyes:"look_right", mouth:"normal", MOUTH_LOCK:true });`
 
@@ -551,14 +551,14 @@ hong({ eyes:"less_angry", mouth:"normal" });
 bb({ eyes:"ignore_oh_crap" });
 ```
 
-h: Okay then. Bottoms up.
+h: โอเค งั้นก็หมดแก้ว
 
 ```
 bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF WHAT I SA--
+b: เอ้ยเดี๋ยวฉันกำลังใช้จิตวิทยาย้อนกลับจริงๆนายต้องทำ *ตรงข้าม* กับที่ฉันพ--
 
 (#act3_bad_3)
 
@@ -568,13 +568,13 @@ b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF
 
 `bb({ eyes:"angry" });`
 
-b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.
+b: นาย *กำลัง* ทำให้ตัวเองอยู่ในอันตราย เพี่อนปลอมๆของนาย *กำลัง* หลอกใช้นาย และนาย *กำลัง* หลอกใช้เพี่อนปลอมๆของนาย
 
 `bb({ eyes:"sad" });`
 
-b: So please, human... why don't you believe me?!
+b: ขอร้องล่ะ มนุษย์... ทำไมไม่เชี่อฉัน?!
 
-h: Because you never believed in *me*.
+h: เพราะว่าแกไม่เคยเชี่อ *ฉัน* เลย
 
 (#act3_bad_3)
 
@@ -583,13 +583,13 @@ h: Because you never believed in *me*.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: หมาป่าเฝ้าบ้านตัวอื่นเขามีมนุษย์ที่สละเวลามาฝึกพวกเขาอย่างอดทน *เรียนรู้* ที่จะทำงานด้วยกัน
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: แทนที่จะเกลียดหมาตัวเองเพราะพวกเขาช่วยปกป้องตัวเอง แล้วทำไมนายถึงไม่--
 
 `bb({ eyes:"normal" });`
 
-h: Wrong ^fuck^ing answer.
+h: ตอบได้วิบัติ^ฉิบหาย^ว่ะ
 
 (#act3_bad_3)
 
@@ -614,29 +614,29 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *"สิ่งเดียวที่ต้องกลัว คือความกลัว"*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
-h: *"Don't worry, be happy!"*
+h: *"อย่ากังวลไป มีความสุขสิ!"*
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: All the wise folk of our time agree: negative emotions are *bad!*
+h: คนฉลาดๆยุคเราพูดแบบเดียวกันเลย: อารมณ์ทางลบมัน *ไม่ดี!*
 
 `hong({ eyes:"less_angry" });`
 
-h: Duh! That's why they're called *negative!*
+h: เขาถึงเรียกมันว่า *ลบ* ไงล่ะ!
 
-b: human... please...
+b: มนุษย์... ได้โปรด...
 
 `hong({ eyes:"normal" });`
 
-h: A while back, I said: “I just want to be free from all this pain.”
+h: ก่อนหน้านี้ ฉันพูดไว้ว่า "อยากปลดแอกจากการรู้สึกปวดใจแบบนี้้"
 
-h: I got my wish. I no longer feel pain, or fear, or anxiety...
+h: ตอนนี้ได้สมใจแล้ว ชั้นไม่ปวด ไม่กลัว ไม่วิตก...
 
-h: I don't feel anything at all.
+h: ไม่รู้สึกอะไรเลย...
 
 `_.a3_ending = "jump";`
 
@@ -648,22 +648,22 @@ h: I don't feel anything at all.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: ฉันหมกมุ่นกับการทำให้มั่นใจว่าจะไม่มีอะไรทำร้ายนายได้ จนลืมนึกไปว่า *ฉัน* เป็นคนทำร้ายนายเอง
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NO. S^HIT^.
+h: ใช่่สิ เพี่งรู้เหรอ?!
 
 `hong({ body:"yell_1" });`
 
-h: ^GODDAMN^. It really took you this long to finally figure it out?!
+h: ^เหี้ยเอ้ย^ กว่าจะคิดออกเองต้องนานขนาดนี้เลยเหรอ?!
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?...
+h: ถ้าแกคิดได้เร็วกว่านี้พวกเราคงไม่มีปัญหามากแบบนี้ ไอ้หมาหน้าโง่ ทำไมแกถึงไม่รู้ตัวเร็วกว่านี้?...
 
 `_.apologized_for_hurt = true;`
 
@@ -675,13 +675,13 @@ h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't y
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
 
-h: ...you're *sorry.*
+h: ...แก *ขอโทษ*
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
 h: ...
 
-h: Sorry for *what*?
+h: ขอโทษเรี่อง *อะไร*?
 
 (#act3_good_2q)
 
@@ -703,22 +703,22 @@ h: Sorry for *what*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[I'm sorry I wasn't a good protector.](#act3_good_3_protector)
+[ฉันขอโทษที่เป็นผู้ปกป้องที่ไม่ดี](#act3_good_3_protector)
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[ฉันขอโทษที่ไม่เคารพนาย](#act3_good_3_respect)
 
-[I'm sorry.](#act3_good_4)
+[ฉันขอโทษ](#act3_good_4)
 
 
 # act3_good_2q_not_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[I'm sorry I have a terrible human!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[ฉันขอโทษที่มีมนุษย์แย่ๆ!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[ฉันขอโทษที่ไม่เคารพนาย](#act3_good_3_respect)
 
-[I'm sorry I hurt you.](#act3_good_3_hurt)
+[ฉันขอโทษที่ทำร้ายนาย](#act3_good_3_hurt)
 
 
 
@@ -726,19 +726,19 @@ h: Sorry for *what*?
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: หน้าที่ของฉันคือการเตือนนายถึงอันตราย *ที่แท้จริง* แต่ฉันก็เอาแต่เห่ารถ เห่าคนส่งจดหมาย
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: เห่าเงา เห่าทุกอย่าง
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: ก็มีเหตุผลแหละที่นายอยากเอาตระกร้อมาปิดปากฉัน
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: ฉันขอโทษ
 
 (#act3_good_4)
 
@@ -748,15 +748,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b: ฉันควรจะเป็นหมาเฝ่าบ้านผู้ภักดี *ของนาย* แต่ฉันทำตัวเหมีอนว่านายต้องเชี่อฟัง *ฉัน*
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: ผู้ปกป้องกับผู้คุมในคุกเป็นคนละอย่างกัน และฉันก็ข้ามเส้นนั้นไปแล้ว
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: ฉันขอโทษ
 
 (#act3_good_4)
 
@@ -766,15 +766,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: ฉันหมกมุ่นกับการปกป้องนายจากการเจ็บปวด จนไม่เคยหยุดคิดเลยว่า *ฉัน* เป็นคนทำนายเจ็บซะเอง
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: ฉันเป็นหมาเลว
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: ฉันขอโทษ
 
 (#act3_good_4)
 
@@ -792,11 +792,11 @@ h: ...
 hong({ body:"stop", mouth:"stop", eyes:"blank" });
 ```
 
-h: Yeah, well, this was a dumb idea anyway.
+h: เออ ไอ้การทำแบบนี้เป็นความคิดที่งี่เง่าสิ้นดี
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: ชั้นทำลงไปก็เพี่อทำให้แกสั่นคลอน แล้วแกก็สั่นคลอนจริงๆ
 
-h: Let's just call this round a tie, okay?
+h: รอบนี้ถือว่าเสมอแล้วกัน โอเคมั้ย?
 
 ```
 bb({ mouth:"sorry", eyes:"sorry" });
@@ -805,11 +805,11 @@ bb({ MOUTH_LOCK:true });
 
 b: ...
 
-b: Okay.
+b: โอเค
 
-h: Okay.
+h: โอเค
 
-n: *TIE*
+n: *เสมอ*
 
 `_.a3_ending = "walkaway";`
 
@@ -885,26 +885,26 @@ publish("act3",["roofhunter",27]);
 
 `Game.FORCE_CANT_SKIP = false;`
 
-r: Oh *come on*. After all that animal's done to you, you're just *giving up?*
+r: *ปัดโถ่* หลังจากสัตว์ตัวนั้นทำแกซะขนาดนั้นแล้ว แกจะมา *ยอมแพ้* ตอนนี้เหรอ?
 
-r: What's the matter, kid? Are you *scared?*
+r: เป็นอะไรไปไอ้น้อง แก *กลัว* เหรอ?
 
 ```
 publish('hong-next');
 publish("act3",["roofhunter",26]);
 ```
 
-h2: Yes.
+h2: ใช่
 
-h2: I'm scared.
-
-`publish('hong-next')`
-
-h2: And that's okay!
+h2: ชั้นกลัว
 
 `publish('hong-next')`
 
-h2: It's okay to be scared.
+h2: แต่ก็ไม่เป็นไร!
+
+`publish('hong-next')`
+
+h2: คนเรามันกลัวกันได้
 
 `publish('hong-next')`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Did they just lock the door?
+r: เดี๋ยวนะ เขาล็อคประตูเหรอ?
 
 ```
 Game.clearAll();
@@ -1063,7 +1063,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no...
+b: ไม่...
 
 (...501)
 
@@ -1082,7 +1082,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no no no
+b: อย่า อย่า อย่า
 
 (...501)
 
@@ -1150,7 +1150,7 @@ Game.FORCE_TEXT_Y = 325;
 Game.OVERRIDE_FONT_SIZE = 50;
 ```
 
-b: NO!
+b: ไม่นะ!
 
 (...400)
 
