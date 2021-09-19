@@ -208,42 +208,42 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *เฮ้อ*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: ตกลงข้อคิดนิทานเรี่องนี้คือ^เชี่ย^อะไรเนี่ย?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: เราได้ *เรียนรู้* อะไรบ้าง? ฉันทำตัวงี่เง่า "เพี่อน" ของชั้นหลอกใช้ชั้น แถมพวกเรายังเกือบ *ตาย* ด้วย
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[ช่าย แล้วนี่ยังไม่พูดถึงค่าหมอนะ](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[ช่าย แล้วนี่ยังไม่พูดถึงตับวายนะ](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[ช่าย นั่นมันเป็นเคสที่แย่ที่สุด](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[ช่าย ฉันพูดถูกแล้ว](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: นั่นสินะ ชั่นว่า "การทำตัวงี่เง่า" ประกันไม่จ่ายนะ
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: ถึงยังไงแล้ว...เราก็ยังรอดมาได้!
 
 `hong({eyes:"normal"});`
 
@@ -255,11 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: พวกเราน่าจะกินอายุขัยเราให้สั้นลงไปหลายปีล่ะ...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
+b: แต่อย่างน้อยพวกเราก็ *ยังมี* อายุขัย! พวกเรารอดมาได้!
 
 ```
 hong({eyes:"surprise"});
@@ -274,13 +274,13 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: ถึงยังไงแล้ว...
 
-h: Hm?
+h: หึม?
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
+b: เราก็ยังรอดมาได้!
 
 (#act4b)
 
@@ -288,19 +288,19 @@ b: We survived!
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: แต่... นายก็พูดถูกเหมือนกัน
 
 `hong({eyes:"surprise"});`
 
-h: Hm?
+h: หึม?
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: ฉันเป็นหมาป่าเลี้ยงแกะ พอเกิดอันตรายขึ้น *จริงๆ* การที่นายไม่เชี่อฉันมันก็ไม่แปลก
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: ถึงยังไงแล้วเราก็ยังรอดมาได้!
 
 (#act4b)
 
@@ -311,7 +311,7 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: ไม่ว่าจะเกิดอะไรขึ้นไปแล้ว พวกเราก็ยังอยู่ตรงนี้
 
 `hong({eyes:"suspect"});`
 
