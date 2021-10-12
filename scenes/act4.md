@@ -462,92 +462,92 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: ฉันอยากปกป้องความปลอดภัยทางร่างกายของนาย
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: แต่ *ทั้งโลก* นี้มันช่างอันตรายเหลือเกิน มันเต็มไปด้วยความโศกเศร้าและความชั่วร้าย
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: อึม ก็ไม่รู้ล่ะ *ฉัน* เป็นคนเลือกคำพูดมาสักพักนึงละ *นาย* ว่ายังไงบ้างมนุษย์?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: ไปที่นายอีกที นายคิดว่ายังไงบ้าง?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: คิดว่าไงมนุษย์?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[แกพูดถูก เรามาปกป้องตัวเองกันเถอะ](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[เรามาพยายาม *เข้าหา* อันตรายกันเถอะ](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[ขอบใจนะ](#act4_thanks) `_.thanks_for = "ความปลอดภัยทางร่างกาย";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: แต่...ทำยังไงล่ะ? ฉันมีเขี้ยวเล็บก็จริง แต่ฉันเป็นแค่การอุปมานี่สิ
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: เราเรียนวิธีป้องกันตัวเองได้ หรือเข้าหาชุมชนที่ป้องกันซึ่งกันและกัน ปรับปรุงสุขภาพและขอบเขตความส่วนตัว?
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: ก็ได้นะ แต่ว่า...
 
-[Where do we even start?](#act4_harm_skills_start)
+[เราเรี่มจากไหนดีล่ะ?](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[แล้วถ้ามันยังไม่เวิร์คล่ะ?](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[แล้วถ้าเรา "ปลอดภัย" เกินไปล่ะ?](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: มีอะไรให้ทำหลายอย่าง มีหลายเรี่องที่ต้องแก้ไข เราควร *เรี่ม* จากที่ไหนล่ะ?
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: ตอนนี้ก็ถือว่าเรี่มนะ
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
-b: Eh?
+b: เอ๋?
 
 ```
 bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: เรากำลังฝึกการสื่อสารที่ดีอยู่ มันจะช่วยให้เรามองเห็นอันตรายได้ดีขึ้น เห็นผลบวกลวงน้อยลง
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: *นั่นแหละ* จะปกป้องเราจากอันตราย!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: ดังนั้น: นี่ *เป็น* การฝึกป้องกันตัวเอง
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: เอ่อ ฉันคิดว่ามันจะเป็นแบบนี้ซะอีก:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +567,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: ก็จริงอยู่แหละ เราปกป้องตัวเอง 100% ไม่ได้...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: แต่อย่างน้อยการที่ดีขึ้น 1% ก็ยังดีกว่าไม่มีอะไรดีขึ้นเลยนะ
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: นายมองว่าแก้วไม่ได้ว่าง 99% แต่ว่ามีน้ำ 1% เหรอ?
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: มันก็ควรค่าแก่การมีถ้าติดอยู่ในทะเลทรายอ่ะนะ
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: อึม งั้นก็หมดแก้ว
 
 (#act4_something_else)
 
@@ -594,26 +594,27 @@ b: Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: คิดดูสิ ก็เพราะ *ฉัน* พยายามทำให้นายปลอดภัยมากเกินไปไม่ใช่เหรอนายถึงไม่ฟังคำเตือน!
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: ม่ายๆ แกพูดถูกแล้ว เราต้องปลอดภัยแบบพอดีๆ ทุกอย่างแบบพอดี
 
 `bb({ eyes:"suspect" })`
 
-b: Sorry, *EVERYTHING* in moderation?
+b: โทษทีนะ *ทุกอย่าง* แบบพอดี?
 
 `hong({ eyes:"annoyed" })`
 
-h: *A moderate number of things* in moderation.
+h: *บางอย่างที่จำนวนพอดี* แบบพอดี
 
 ```
 bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Thank you for making your statements recursively self-consistent.
+b: ขอบคุณที่ทำให้คำพูดนาย
+Thank you for making your statements recursively self-consistent.
 
 (#act4_something_else)
 
