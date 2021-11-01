@@ -668,7 +668,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: อั๊ยย่ะ
 
 (#act4_something_else)
 
@@ -676,35 +676,35 @@ b: D'aw.
 
 `bb({ eyes:"annoyed" })`
 
-b: We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
+b: เพี่งเห็นกันไป *หมาดๆ* ว่าจะเกิดอะไรขึ้นถ้านายปิดกั้นความกลัวของนาย - นายเอาตัวเองไปอยู่ในสถานการที่อันตราย *จริง*ๆ
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Besides, won't *too* much desensitization turn us into psychopaths?
+b: อีกอย่างนะ การที่เราชิน *เกินไป* ไม่ทำให้เราเป็นพวกโรคจิตเหรอ?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Soon we'll give ourselves treats while watching snuff murder porn!
+b: อีกหน่อยพวกเราคงได้ให้รางวัลตัวเองเวลาดูหนังโป็ฆาตกรรมเลือดสาดแน่ๆ
 
 `hong({ eyes:"annoyed" })`
 
-h: I... think there's a line between that and the thunder.
+h: ชั้นว่า... มันมีเส้นแบ่งระหว่างแบบนั้นกับฟ้าผ่านะ
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: But exactly *where*, human? *Where?!*
+b: แล้วมันอยู่ *ตรงไหน* ละมนุษย? *ที่ไหน*?!
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
-h: I don't know. But *you* can help me!
+h: ชั้นก็ไม่รู้ล่ะ แต่ *แก* ช่วยชั้นได้!
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Working and negotiating with you, we'll draw that line.
+h: ทำงานกับแก ต่อรองกับแก เราจะมาขีดเส้นนั้นด้วยกัน
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
+b: โอเค แต่ฉันไม่มีมือเหมือนนาย นายต้องเป็นคนวาดนะ
 
 (#act4_something_else)
 
