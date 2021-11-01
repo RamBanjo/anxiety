@@ -613,8 +613,7 @@ bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: ขอบคุณที่ทำให้คำพูดนาย
-Thank you for making your statements recursively self-consistent.
+b: ขอบคุณที่ทำให้คำพูดนายตรงกับที่ตัวเองพูดแบบซ้อนไปซ้อนมานะ
 
 (#act4_something_else)
 
@@ -623,45 +622,45 @@ Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *หะ*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: ลองสมมุติว่ามีหมาตัวนึงกลัวฟ้าผ่า
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: วิธีนึงที่คนฝึกหมาเขาทำกันคือ เปิดเสียงฟ้าผ่าแบบหรี่เสียงลง แล้วให้รางวัลหมาถ้ามันอยู่นิ่งๆ
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: หลายๆวันต่อจากนั้น คนฝึกก็ค่อยๆเพี่มเสียงให้ดังขึ้น จนหมาตัวนั้นไม่กลัวเสียงฟ้าผ่าอีกต่อไป
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h: อันนี้เรียกว่าการบำบัดด้วยการเข้าหาสิ่งที่กลัว (exposure therapy) ไงล่ะ!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
+h: แล้วแกก็เป็นหมาด้วย มันควรจะได้ผลกับแกถูกมั้ย? สัตว์เลี้ยงลูกด้วยนมมีการตอบโต้แบบสู้หรือหนีทั้งนั้น
 
 `hong({ body:"normal" });`
 
-[What if we desensitize *too* much?](#act4_harm_exposure_overboard)
+[แล้วถ้าเราชิน *เกินไป* ล่ะ?](#act4_harm_exposure_overboard)
 
-[What if we're exposed to *real* danger?](#act4_harm_exposure_hurt)
+[แล้วถ้าเราเจออันตราย *จริงๆ* ล่ะ?](#act4_harm_exposure_hurt)
 
-[I'm a wolf, not a dog.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[ฉันเป็นหมาป่านะ ไม่ใช่หมา](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
-h: And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
+h: แล้วชั้นจะแสดงความเมตตากับความอดทนกับแก จนแกเชี่องเป็นน้องหมาน่ารัก
 
 `bb({ MOUTH_LOCK:true })`
 
