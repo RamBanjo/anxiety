@@ -16,13 +16,13 @@ Game.FORCE_CANT_SKIP = true;
 publish("show_stats");
 ```
 
-n2: FEARS THIS ROUND:
+n2: ความกลัวที่ใช้รอบนี้:
 
-i: #harm# *BEING HARMED:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
+i: #harm# *ถูกทำร้าย:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
-i: #alone# *BEING UNLOVED:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
+i: #alone# *คนไม่รัก:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
-i: #bad# *BEING A BAD PERSON:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
+i: #bad# *เป็นคนไม่ดี:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
 
 ```
@@ -31,7 +31,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n5: (game auto-saved! it's ok to quit & continue later)
+n5: (เกมออโต้เซฟแล้ว! สามารถออกแล้วกลับมาเล่นต่อทีหลังได้)
 
 ```
 Game.clearAll();
